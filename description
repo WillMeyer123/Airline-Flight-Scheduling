@@ -1,0 +1,27 @@
+Objective:
+The	objective	of	this	project	is	to	write	a	program	in	Python	that	will	read	in	a	data	
+file	with	all	flights	from	Providence	to	Orlando and	display	information requested	
+by	the	user.
+The	Statistics:
+The	data	file	can	be	found	here:
+http://www.cs.uri.edu/~cingiser/csc110/assignments/flights.txt
+This	text	file	contains	the	following	information	for	flights	from	Providence	to	
+Orlando.		
+Airline
+The	name	of	the	airline,	which	is	represented	as	a	string.	
+Flight	Number
+Each	airline	has	a	unique	flight	number	assigned	to	a	particular	flight.		Each	airline	
+may	have	more	than	one	flight	scheduled	on	the	same	day	from	Providence	to	
+Orlando.
+Departure	Time
+The	time	of	day	that	the	flight	is	scheduled	to	depart	from	Providence.		Time	is	
+represented	in	24	hour	clock	time,	so	14:00	represents	2:00PM.
+Arrival	Time
+The	time	of	day	that	the	flight	is	scheduled	to	arrive	in	Orlando.
+Price
+The	cost	of	the	flight.
+The	Program:
+For	this	assignment,	you	will	present	the	user	with	a	list	of	options	and	you	will	
+present	the	results	chosen	by	the	user.		The	program	should	continue	to	run	until	
+the	user	chooses	to	quit.		The	menu	that	you	present	to	the	user	should	look	
+something	like	this:
